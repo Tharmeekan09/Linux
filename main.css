@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{   
+    font-family: "Inter", serif;
+    background-color: #F5F7F6;
+}
+
+/* navbar */
+
+.navbar{
+    flex-direction: row;
+    display:flex;
+    align-items: center;
+    padding: 5px 30px;
+    justify-content: space-between;
+}
+
+.navName{
+    color: #B88E2F;
+    font-size: 26px;
+    flex-direction: row;
+    display:flex;
+    font-weight: 500;
+}
+
+.nav-link{
+    flex-direction: row;
+    display:flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.nav-link a{
+    color: #B88E2F;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.tab:hover{
+    color: #60390a;
+}
+
+.top{
+    color: white;
+    background-color: #FFF3E3;
+    border: peru 2px;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}
+
+.bg{
+    background-image: url(home_img/scandinavian-.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 650px;
+}
+
+.hero-contant{
+    background-color: #FFF3E3;
+    margin-top: 70px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-right: 10px;
+    margin-right: 200px;
+    margin-left: 800px;
+    float: right;
+    border-radius: 10px;
+}
+
+.hero-contant p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.803);
+    font-weight: 600;
+    padding-top: 30px;
+
+}
+p.note{
+    padding-right: 8px;
+    padding-bottom: 30px;
+    
+}
+
+.hero-contant h1{
+    font-size: 52px;
+    color: #d2a12d;
+}
+
+.hero-contant button{
+     background: #d2a12d;    
+     color: white;
+     border: none;
+     font-size: 22px;
+     padding: 20px 30px;
+     border-radius: 5px;
+}
+
+/* Explore */
+
+.Explore{
+    height: 730px;
+    background-color: #FCF8F3;
+    flex-direction: row;
+    display:flex;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.Explore-text .h1{
+    font-size: 52px;
+    color: #d2a12d;
+    padding-top: 50px;
+}
+
+.Explore-text .p{
+    font-weight: 700;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-right: 100px;
+}
+
+.Explore button{
+     background: #d2a12d;    
+     color: white;
+     border: none;
+     font-size: 22px;
+     padding: 20px 30px;
+     border-radius: 5px;
+}
+
+.Explore-img img{
+    width: 580px;
+    height: 480px;
+}
+
+/* Product add */
+
+.Product{
+    text-align: center;
+    
+}
+
+
+
+.Product-img a .rimg{
+    flex-direction: row;
+    width: 380px;
+    height: 480px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.Product-name{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 0;
+    margin-left: 280px;
+    margin-right: 320px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+    background-color: #FAF3EA;
+    padding: 20px 150px;
+    margin-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 5px;
+    padding-top: 50px;
+    
+}
+
+.top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #d2a12d;
+    font-weight: 500;
+}
+
+.left-text{
+    font-size: 39px;
+}
+
+.center a{
+    color: #d2a12d;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.right p{
+    font-size: 20px;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: #E4E7EC;
+}
+
+.footer-end{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 0%;
+}
+
+.social{
+    gap: 10px;
+    padding: 10px;
+}
